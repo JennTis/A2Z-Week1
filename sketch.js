@@ -22,6 +22,8 @@
 // Silences crossed by Worlds and by Angels:
 // O the Omega, the violet ray of Her Eyes!
 
+// References: Used a combo of the erasure example (https://github.com/shiffman/A2Z-F17/blob/master/week1-strings/11_erasure/erasure.js) and a hw example from last year (https://leslieruckman.github.io/a2zhomeworkW1/)
+
 let words = ["A ","black, ","E ","white, ","I ","red, ","U ","green, ","O ","blue ",": vowels, "];
 let words1= ["I"," shall ","tell, ","one ","day, ","of ","your ","mysterious ","origins "];
 let words2= ["A, ","black ","velvety ","jacket ","of ","brilliant ","flies "];
