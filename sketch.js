@@ -1,7 +1,10 @@
 
 
 
-// A Black, E white, I red, U green, O blue : vowels,
+//vowels
+//Arthur Rimbaud
+
+//A Black, E white, I red, U green, O blue : vowels,
 // I shall tell, one day, of your mysterious origins:
 // A, black velvety jacket of brilliant flies
 // Which buzz around cruel smells,
@@ -57,116 +60,116 @@ function changeColor() {
   }
 }
 
-function switchColor() {
-  var word = this.html();
-  if (word == "black, " || word == "black " || word == "white, " || word == "whiteness " || word =="white "
-  || word == "red, " || word == "purples, " || word == "green, " || word == "viridian " || word == "blue "
-  || word == "violet ") {
-    this.style('color', "#000000");
-  }
-}
+// function switchColor() {
+//   var word = this.html();
+//   if (word == "black, " || word == "black " || word == "white, " || word == "whiteness " || word =="white "
+//   || word == "red, " || word == "purples, " || word == "green, " || word == "viridian " || word == "blue "
+//   || word == "violet ") {
+//     this.style('color', "#000000");
+//   }
+// }
 
 function setup() {
 	noCanvas();
-
-  var wordP = select("#words");
-  var wordP1 = select("#words1");
-	var wordP2 = select("#words2");
-	var wordP3 = select("#words3");
-	var wordP4 = select("#words4");
-	var wordP5 = select("#words5");
-	var wordP6 = select("#words6");
-	var wordP7 = select("#words7");
-	var wordP8 = select("#words8");
-  var wordP9 = select("#words9");
-  var wordP10 = select("#words10");
-  var wordP11 = select("#words11");
-  var wordP12 = select("#words12");
-  var wordP13 = select("#words13");
+	
+	var par1 = select("#words");
+	var par2 = select("#words1");
+	var par3 = select("#words2");
+	var par4 = select("#words3");
+	var par5 = select("#words4");
+	var par6 = select("#words5");
+	var par7 = select("#words6");
+	var par8 = select("#words7");
+	var par9 = select("#words8");
+  var par10 = select("#words9");
+  var par11 = select("#words10");
+  var par12 = select("#words11");
+  var par13 = select("#words12");
+  var par14 = select("#words13");
 
 
 	for (var i = 0; i < words.length; i++) {
     var word = createSpan(words[i]);
-    word.parent(wordP);
+    word.parent(par1);
     word.mouseOver(changeColor);
     // word.mousePressed(switchColor);
   }
 
 	for (var i = 0; i < words1.length; i++) {
 		var word1 = createSpan(words1[i]);
-		word1.parent(wordP1);
+		word1.parent(par2);
     word1.mouseOver(changeColor);
 	}
 
 	for (var i = 0; i < words2.length; i++) {
 		var word2 = createSpan(words2[i]);
-		word2.parent(wordP2);
+		word2.parent(par3);
 		word2.mouseOver(changeColor);
 	}
 
 	for (var i = 0; i < words3.length; i++) {
 		var word3 = createSpan(words3[i]);
-		word3.parent(wordP3);
+		word3.parent(par4);
     word3.mouseOver(changeColor);
 
 	}
 	for (var i = 0; i < words4.length; i++) {
 		var word4 = createSpan(words4[i]);
-		word4.parent(wordP4);
+		word4.parent(par5);
 		word4.mouseOver(changeColor);
 
 	}
 	for (var i = 0; i < words5.length; i++) {
 		var word5 = createSpan(words5[i]);
-		word5.parent(wordP5);
+		word5.parent(par6);
 		word5.mouseOver(changeColor);
 
 	}
 	for (var i = 0; i < words6.length; i++) {
 		var word6 = createSpan(words6[i]);
-		word6.parent(wordP6);
+		word6.parent(par7);
 		word6.mouseOver(changeColor);
 
 	}
 	for (var i = 0; i < words7.length; i++) {
 		var word7 = createSpan(words7[i]);
-		word7.parent(wordP7);
+		word7.parent(par8);
     word7.mouseOver(changeColor);
 
 	}
 	for (var i = 0; i < words8.length; i++) {
 		var word8 = createSpan(words8[i]);
-		word8.parent(wordP8);
+		word8.parent(par9);
 		word8.mouseOver(changeColor);
 
 	}
   for (var i = 0; i < words9.length; i++) {
 		var word9 = createSpan(words9[i]);
-		word9.parent(wordP9);
+		word9.parent(par10);
 		word9.mouseOver(changeColor);
 
 	}
   for (var i = 0; i < words10.length; i++) {
 		var word10 = createSpan(words10[i]);
-		word10.parent(wordP10);
+		word10.parent(par11);
 		word10.mouseOver(changeColor);
 
 	}
   for (var i = 0; i < words11.length; i++) {
 		var word11 = createSpan(words11[i]);
-		word11.parent(wordP11);
+		word11.parent(par12);
 		word11.mouseOver(changeColor);
 
 	}
   for (var i = 0; i < words12.length; i++) {
     var word12 = createSpan(words12[i]);
-    word12.parent(wordP12);
+    word12.parent(par13);
     word12.mouseOver(changeColor);
 
   }
   for (var i = 0; i < words13.length; i++) {
     var word13 = createSpan(words13[i]);
-    word13.parent(wordP13);
+    word13.parent(par14);
     word13.mouseOver(changeColor);
 
   }
